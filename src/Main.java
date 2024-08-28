@@ -17,14 +17,18 @@ public class Main {
         int age;
         System.out.println("what is your age");
         age = scanner.nextInt();
-
+        scanner.nextLine();
         System.out.println("what is your name");
-        firstName = scanner.next();
+        firstName = scanner.nextLine();
 
         System.out.println("what's your favorite food");
-        favoriteFood = scanner.next();
+        favoriteFood = scanner.nextLine();
         scanner.close();
-        System.out.println("Name: "+firstName +"\n\nAge: "+age+"\n\nfavorite food: "+favoriteFood);
+        System.out.println("Name: "+firstName);
+        System.out.println(" ");
+        System.out.println("Age: "+age);
+        System.out.println(" ");
+        System.out.println("Favorite Food: "+favoriteFood);
 
 
     }
